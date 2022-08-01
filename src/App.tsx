@@ -45,6 +45,7 @@ import Webhooks from './pages/webhooks'
 import WebProperties from './pages/webproperties'
 import { IRootState } from './store'
 import { setDarkMode, setTheme } from './store/home/actions'
+import CliM365Terminal from './pages/clim365/components/clim365terminal'
 
 const prefersDark = window.matchMedia('(prefers-color-scheme: dark)')
 
@@ -90,6 +91,7 @@ const App = () => {
                 <Route path='/graphsdkconsole' component={GraphSDKConsole} />
                 <Route path='/mgtconsole' component={MGTConsole} />
                 <Route path='/fileexplorer' component={FileExplorer} />
+                <Route path='/clim365' component={CliM365Terminal} />
               </Switch>
               <MessageBar />
             </IonPage>

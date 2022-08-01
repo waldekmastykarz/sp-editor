@@ -12,6 +12,7 @@
     "@microsoft/mgt-react": "^2.3.1",
     "@microsoft/microsoft-graph-client": "^3.0.1",
     "@minoru/react-dnd-treeview": "^1.6.1",
+    "@pnp/cli-microsoft365": "file:../cli-microsoft365",
     "@uifabric/theme-samples": "^7.4.11",
     "cra-build-watch": "^3.4.0",
     "gsap": "^3.9.1",
@@ -28,7 +29,9 @@
     "redux-thunk": "^2.4.1",
     "textarea-caret": "^3.1.0",
     "typesafe-actions": "^5.1.0",
-    "typescript": "^4.5.4"
+    "typescript": "^4.5.4",
+    "xterm": "^4.19.0",
+    "yargs-parser": "^21.0.1"
   },
   "scripts": {
     "build": "INLINE_RUNTIME_CHUNK=false react-scripts build",
